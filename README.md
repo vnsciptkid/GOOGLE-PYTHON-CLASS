@@ -52,5 +52,7 @@
   - Then we can call these name by short names but it is not recommended, we want to know what name from what namespace
   
   2.10. Online help, help() and dir()
-  
+  - Google
+  - help : describe what function do
+  - dir : attributes
   
