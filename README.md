@@ -38,8 +38,7 @@
   - How many space is enough : 4 or 2
   
   2.7. Code checked at run-time
-  - 
-  
+    
   2.8. Variable names
   - Since Python dont use type declaration, so it's helpful if use a name that meaningful so you don't forget type of variables
   - Python prefers underscore to camelCase
@@ -47,6 +46,10 @@
   - Using name like str or list don't cause error but it will override system varialbes
   
   2.9. More on modules and their namespaces
+  - A module (*.py) can be imported to other module by : import nameModule.py
+  - Think Namespace as a containter of names. Name here can be function, variable. Name is connected with a namespace by '.'
+  - We can explicitly specify what name from namespace we want to import by : from namespaceX import name1, name2
+  - Then we can call these name by short names but it is not recommended, we want to know what name from what namespace
   
   2.10. Online help, help() and dir()
   
