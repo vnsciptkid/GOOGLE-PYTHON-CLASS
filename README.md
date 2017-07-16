@@ -56,3 +56,66 @@
   - help : describe what function do
   - dir : attributes
   
+3. String
+  - 2 ways to enclose a string : double quotes or single quotes
+  - Using blackslash \ if there's double quote or single quote somewhere in string
+  - Blackslash can be used to span string in multiple lines
+  - Otherwise, tripple quotes is alternative way
+  - IMPORTANT : STRING IN PYTHON IS IMMUTABLE (same as JAVA) ? -> How it works?
+  - len() is a built-in function return the number of elements (avoid using for variable name)
+  - In Python, '+' doesnt automatically convert number to string like Java
+  
+  3.1 String methods
+    - Method running on object (OOP idea)
+    - Some common methods:
+    s.lower(), s.upper()
+    s.strip() -> removes space at top and end
+    s.isalpha(), s.isdigit(), s.isspace()
+    s.startswith('sth'), s.endswith('sth') -> checks if string starts or ends with a given string, return true or false
+    s.find('sth') -> checks if string contains a particular given string, return index of first character, or -1 if not found
+    s.replace('old', 'new') -> return new string where all old chars is replaced by new chars
+    s.split() -> return a array of substring is seperated by what is specified in argument
+    s.join(arr) -> opposite of split, it joins elements in the list (s here is what seperated between elements)
+  
+  3.2 String slices
+    - Work for string and list
+    - Explicit way: s[a:b] -> from index of a , extending up but not including b
+    Some variants: 
+    s[a:] -> from index of a up to the end
+    s[:b] -> from start up to but not including b
+    s[:] -> all
+    s.[:a] + s[a:] is actually s
+    - a,b can be negative numbers, last char is -1 and so on
+    
+    
+  3.3 String %
+    - Works same as printf in C, string can take in arguments at where % is specified, like parameters
+    - %d is integer, %s is string, %f is float
+    - Trick : To span the who expression in multiple lines, use a addiitonal outer paretheses
+  
+  3.4 i18n Strings (Unicode)
+    - Differentiate between normal string and unicode
+    - Use u prefix ahead of string to specify this is a unicode string
+    - Share many same functions with normal string
+    -> Research more on this
+  
+  3.5 If statement
+    - Different from C/Java
+    - Using ':' and identation to group statements
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
