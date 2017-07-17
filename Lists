@@ -1,0 +1,41 @@
+- List in Python is quite similar with string
+- Some similar things: 
+  + also a built-in type 
+  + Using square bracket [] to retrieve a element in the list 
+  + Also using [a:b] to get a sublist from the list
+  + Some built-in method like : len()
+  + IMPORTANT: Assignment does not make a copy, but a pointer to the object, using id() to retrieve address of object
+  + ""-> empty string . [] -> empty list
+  + Using + to combine 2 lists , just like string
+  
+- FOR and IN
+  + FOR/IN constructs have the same function as for in c/java but using different syntax
+  + for var in list:
+  + IN itself is a way to test if a element is appear in a list
+  
+- RANGE
+  + range(100) yeilds number from 0 to 99, whereas range(a,b) return a list from a upto b but not including b
+  + using RANGE in combination with FOR/IN to make a traditional FOR loop
+  + Notice: keyword is case-sensitive, using lower-case in practice 
+  
+- WHILE
+  + Syntax: while conditions:
+  
+- List METHOD
+  + a.append(ele) : append a single element to the end of the list, modifying the original list, dont create a new list
+  element here can be anything
+  + a.insert(index, ele) : insert a element into a given index in the list, shift other elements to the right by one
+  + list.extend(list2)
+  + list.index()
+  + list.remove(ele)
+  + list.sort()
+  + list.reverse()
+  + list.pop(index)
+
+- List Build Up
+  + Start from empty list [] and using extend() or append() to build the list  
+  
+- List slices
+  + Same as string
+  + can be using to change a sub-part of the list
+  
